@@ -15,7 +15,6 @@ if resp2 == 18:
     totalptn = totalptn +1
 else:
     print("Incorreto, a resposta certa é 18")
-    totalptn = totalptn -1
 
 print("3 - Qual a sigla para associação brasileira de normas tecnicas ?")
 resp3 = str(input())
@@ -24,7 +23,6 @@ if resp3 == "abnt":
     totalptn = totalptn +1
 else:
     print("Incorreto, a resposta certa é abnt")
-    totalptn = totalptn -1
 
 print("4 - Qual a função da memória de armazenamento ?")
 resp4 = str(input())
@@ -33,7 +31,6 @@ if resp4 == "armazenar dados":
     totalptn = totalptn +1
 else:
     print("Incorreto, a resposta certa é armazenar dados")
-    totalptn = totalptn -1
 
 print("5 - Qual o DDD de são paulo ?")
 resp5 = int(input())
@@ -42,7 +39,6 @@ if resp5 == 11:
     totalptn = totalptn +1
 else:
     print("Incorreto, a resposta certa é 11")
-    totalptn = totalptn -1
 
 print("Se chegou até aqui você esta no fim do teste, Parabéns!")
 print("Veja agora sua pontuação")
